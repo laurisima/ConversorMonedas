@@ -4,10 +4,7 @@ Este proyecto implementa un conversor de monedas que utiliza la API de ExchangeR
 Requisitos
 Java 8 o superior
 Biblioteca JSON en el classpath (incluida en el proyecto)
-Uso
 
-bash
-Copiar código
 git clone https://github.com/laurisima/ConversorMonedas.git
 
 Ejecuta la clase Main para iniciar la aplicación.
