@@ -2,7 +2,7 @@ Conversor de Monedas Este proyecto implementa un conversor de monedas que utiliz
 
 Requisitos Java 8 o superior Biblioteca JSON en el classpath (incluida en el proyecto)
 
-git clone https://github.com/laurisima/ConversorMonedas.git
+git clone https://github.com/laurisima/conversorMonedas.git
 
 Ejecuta la clase Main para iniciar la aplicación.
 
