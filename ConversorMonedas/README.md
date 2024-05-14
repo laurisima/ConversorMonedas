@@ -5,11 +5,11 @@ Requisitos
 Java 8 o superior
 Biblioteca JSON en el classpath (incluida en el proyecto)
 Uso
-Clona este repositorio en tu máquina local.
+
 bash
 Copiar código
 git clone https://github.com/laurisima/ConversorMonedas.git
-Abre el proyecto en tu IDE preferido (como IntelliJ IDEA o Eclipse).
+Abre el proyecto en tu IDE preferido .
 
 Ejecuta la clase Main para iniciar la aplicación.
 
@@ -20,4 +20,3 @@ Conversión de Dólar a Peso Argentino y viceversa.
 Conversión de Dólar a Real Brasileño y viceversa.
 Conversión de Dólar a Peso Chileno y viceversa.
 Contribuciones
-Las contribuciones son bienvenidas. Si tienes alguna idea de mejora o encuentras algún error, por favor crea un issue o envía un pull request.
