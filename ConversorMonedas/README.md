@@ -9,7 +9,6 @@ Uso
 bash
 Copiar código
 git clone https://github.com/laurisima/ConversorMonedas.git
-Abre el proyecto en tu IDE preferido .
 
 Ejecuta la clase Main para iniciar la aplicación.
 
