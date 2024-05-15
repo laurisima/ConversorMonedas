@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        String rojo = "\u001B[31m";
+        String reset = "\u001B[0m";
         String tipoCambio ="";
         int num;
         ServicioExchangeRate servicio = new ServicioExchangeRate();
@@ -54,7 +56,7 @@ public class Main {
                                 System.out.println("Ingrese el valor que desea covertir");
                                 num =scanner.nextInt();
                                  double valorConversion = num*usdToArs;
-                                System.out.println("El valor de la conversión es :" +valorConversion);
+                                System.out.println("El valor de la conversión es :" +rojo + valorConversion + reset);
 
                             }catch (Exception e){
                                 System.out.println("Porfavor ingrese un número válido");
@@ -83,7 +85,7 @@ public class Main {
                                 System.out.println("Ingrese el valor que desea covertir");
                                 num =scanner.nextInt();
                                 double valorConversion = num*usdToArs;
-                                System.out.println("El valor de la conversión es :" +valorConversion);
+                                System.out.println("El valor de la conversión es :" +rojo + valorConversion + reset);
 
                             }catch (Exception e){
                                 System.out.println("Porfavor ingrese un número válido");
@@ -112,7 +114,7 @@ public class Main {
                                 System.out.println("Ingrese el valor que desea convertir");
                                 num = scanner.nextInt();
                                 double valorConversion = num * usdToBrl;
-                                System.out.println("El valor de la conversión es :" + valorConversion);
+                                System.out.println("El valor de la conversión es :" +rojo + valorConversion + reset);
                             } catch (Exception e) {
                                 System.out.println("Por favor, ingrese un número válido");
                             }
@@ -139,7 +141,7 @@ public class Main {
                                 System.out.println("Ingrese el valor que desea convertir");
                                 num = scanner.nextInt();
                                 double valorConversion = num * brlToUsd;
-                                System.out.println("El valor de la conversión es :" + valorConversion);
+                                System.out.println("El valor de la conversión es :" +rojo + valorConversion + reset);
                             } catch (Exception e) {
                                 System.out.println("Por favor, ingrese un número válido");
                             }
@@ -165,7 +167,7 @@ public class Main {
                                 System.out.println("Ingrese el valor que desea convertir");
                                 num = scanner.nextInt();
                                 double valorConversion = num * usdToClp;
-                                System.out.println("El valor de la conversión es :" + valorConversion);
+                                System.out.println("El valor de la conversión es :" +rojo + valorConversion + reset);
                             } catch (Exception e) {
                                 System.out.println("Por favor, ingrese un número válido");
                             }
@@ -191,7 +193,7 @@ public class Main {
                                 System.out.println("Ingrese el valor que desea convertir");
                                 num = scanner.nextInt();
                                 double valorConversion = num * usdToClp;
-                                System.out.println("El valor de la conversión es :" + valorConversion);
+                                System.out.println("El valor de la conversión es :" +rojo + valorConversion + reset);
                             } catch (Exception e) {
                                 System.out.println("Por favor, ingrese un número válido");
                             }
